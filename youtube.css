@@ -20,9 +20,9 @@ box-sizing: border-box;
     padding-right: 17px;
 }
 .yt_searchholder{
-    height:50px;
+    height: 40px;
     width:40%;
-    background-color: rgb(126, 40, 40);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ box-sizing: border-box;
     padding-right: 19px;
 }
 #yt_search{
-    height:50px;
+    height: 40px;
     width:90%;
     border-top-left-radius : 20px;
     border-bottom-left-radius : 20px;
@@ -38,6 +38,7 @@ box-sizing: border-box;
 }
 .yt_searchholder i{
     color:whitesmoke;
+    margin: auto#;
 }
 #profilepic{
     height:40px;
@@ -90,4 +91,61 @@ border-radius: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 12px;
+}
+.video_details_holder{
+height:100vh;
+width:100vw;
+padding-left: 15px;
+padding-right: 15px;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.Grid1{
+    height: 100%;
+    width: 70%;
+}
+.Grid2{
+    height: 100%;
+    width: 28%;
+}
+#Grid1_videocontainer{
+    height: 80vh;
+    width: 98%;
+}
+#Grid1_videocontainer video{
+    height: 77vh;
+    width: 100%;
+}
+.Grid1_actiontab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pill{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.descriptionTab{
+    width: 100%;
+    background-color: #000000;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
 }
