@@ -149,3 +149,20 @@ margin-top: 20px;
     color: white;
     padding: 12px;
 }
+
+#Grid2_video{
+    height:100px;
+    width:800px;
+}
+.videocard2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(201, 201, 219);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.videocard2:hover{
+    background: blue;
+    scale: 1.2;
+}
